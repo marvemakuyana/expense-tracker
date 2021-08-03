@@ -13,6 +13,7 @@ const NewExpense = (props) => {
 
         }
         //console.log(expenseData);
+         //console.log(expenseData);
         props.onAddExpense(expenseData)
         setIsEditing(false)
     };
